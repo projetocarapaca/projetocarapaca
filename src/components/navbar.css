@@ -1,0 +1,9 @@
+.navbar-left .navbar-link {
+    cursor: pointer; /* Garante que o cursor seja a 'mãozinha' */
+    text-decoration: none; /* Remove qualquer sublinhado que possa aparecer no texto do link */
+  }
+  
+  .navbar-left span {
+    cursor: pointer; /* Isso também garante que o span tenha o estilo de link clicável */
+  }
+  

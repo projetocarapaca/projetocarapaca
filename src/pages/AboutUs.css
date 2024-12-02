@@ -1,0 +1,42 @@
+.about-us {
+  padding: 20px;
+  text-align: center;
+}
+
+.about-us h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-us p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.photo-gallery {
+  display: flex;
+  justify-content: space-around; /* Alinha as fotos com espaços iguais entre elas */
+  gap: 20px; /* Espaçamento entre as imagens */
+}
+
+.photo-item {
+  text-align: center;
+  width: 30%; /* Cada item ocupará 30% da largura, permitindo 3 itens lado a lado */
+}
+
+.photo-item img {
+  width: 100%; /* Garante que a imagem ocupe 100% da largura disponível */
+  height: 300px; /* Tamanho fixo para todas as imagens */
+  object-fit: cover; /* Faz com que a imagem cubra a área, cortando partes se necessário */
+  border-radius: 50%; /* Bordas arredondadas em formato de círculo */
+}
+
+.photo-item h2 {
+  font-size: 24px;
+  margin-top: 15px;
+}
+
+.photo-item h3 {
+  font-size: 18px;
+  color: #555;
+}

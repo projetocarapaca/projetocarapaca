@@ -1,0 +1,45 @@
+{ name: "Medalha de Ação", image: "/assets/action.webp", condition: true }
+
+{ name: "Coração Púrpura", image: "/assets/purple.webp", condition: true }
+
+{ name: "Estrela de Ouro", image: "/assets/gold.webp", condition: false }
+
+{ name: "Medalha de Boa Conduta", image: "/assets/good.webp", condition: false }
+
+{ name: "Medalha de Reconhecimento", image: "/assets/nav.webp", condition: false }
+
+
+
+Class "Militia Trainer"
+(string)
+callsign "Buns"
+(string)
+city "Copenhague"
+(string)
+events
+(array)
+0 "{ name: "Arulco", date: "1999-03-15" }"
+(string)
+1 "{ name: "Arulco", date: "2004-03-15" }"
+(string)
+gamesPlayed 6
+(number)
+medals
+(array)
+0 "{ name: "Medalha de Ação", image: "/assets/action.webp", condition: true }"
+(string)
+1 "{ name: "Coração Púrpura", image: "/assets/purple.webp", condition: true }"
+(string)
+2 "{ name: "Estrela de Ouro", image: "/assets/gold.webp", condition: false }"
+(string)
+3 "{ name: "Medalha de Boa Conduta", image: "/assets/good.webp", condition: false }"
+(string)
+4 "{ name: "Medalha de Reconhecimento", image: "/assets/nav.webp", condition: false }"
+(string)
+photoUrl "https://static.wikia.nocookie.net/jaggedalliance/images/8/83/JA3_Buns.jpg"
+(string)
+respawnScore 4
+(number)
+team "A.I.M."
+(string)
+totalScore 80 
