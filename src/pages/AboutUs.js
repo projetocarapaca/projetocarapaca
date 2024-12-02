@@ -1,5 +1,5 @@
 import React from 'react';
-import './AboutUs.css'; // Não se esqueça de criar ou atualizar o arquivo CSS com os estilos necessários.
+import './AboutUs.css'; // Certifique-se de criar ou atualizar este arquivo com os estilos abaixo.
 
 const AboutUs = () => {
   return (
@@ -17,7 +17,7 @@ const AboutUs = () => {
           <h3>Dev, Hardware</h3>
         </div>
         <div className="photo-item">
-        <img src="/assets/maria.jpeg" alt="Foto 2" className="photo" />
+          <img src="/assets/maria.jpeg" alt="Foto 2" className="photo" />
           <h2>Maria Eduarda Massotte</h2>
           <h3>Dev, Webdesign</h3>
         </div>

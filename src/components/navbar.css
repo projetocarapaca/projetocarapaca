@@ -1,9 +1,51 @@
-.navbar-left .navbar-link {
-    cursor: pointer; /* Garante que o cursor seja a 'mãozinha' */
-    text-decoration: none; /* Remove qualquer sublinhado que possa aparecer no texto do link */
-  }
-  
-  .navbar-left span {
-    cursor: pointer; /* Isso também garante que o span tenha o estilo de link clicável */
-  }
-  
+/* Estilo da barra de navegação */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Garante que todos os itens fiquem alinhados verticalmente */
+  background-color: #333;
+  padding: 10px 20px;
+  color: white;
+}
+
+/* Estilo da área esquerda */
+.navbar-left {
+  display: flex;
+  align-items: center; /* Alinha o logo e o texto verticalmente */
+}
+
+.navbar-logo {
+  width: 40px; /* Ajuste conforme necessário */
+  height: 40px;
+  margin-right: 10px; /* Espaço entre o logo e o texto */
+}
+
+.navbar-title {
+  font-size: 18px; /* Tamanho do texto "Projeto Carapaça" */
+  font-weight: bold;
+}
+
+/* Estilo da área direita */
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+/* Estilo geral dos links */
+.navbar-link {
+  text-decoration: none; /* Remove o sublinhado */
+  color: white; /* Define a cor inicial do link */
+  font-size: 16px;
+  margin-left: 15px;
+  transition: color 0.3s ease; /* Animação suave na mudança de cor */
+}
+
+/* Removendo a cor roxa após o clique (estado visited) */
+.navbar-link:visited {
+  color: white;
+}
+
+/* Efeito hover */
+.navbar-link:hover {
+  color: #007bff; /* Cor azul ao passar o mouse */
+}
