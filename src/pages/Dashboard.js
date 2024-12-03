@@ -14,10 +14,8 @@ const Dashboard = () => {
       const playerDoc = await getDoc(doc(db, 'players', callsign));
       if (playerDoc.exists()) {
         const playerData = playerDoc.data();
-        const parsedEvents = playerData.events.map((event) =>
-          typeof event === 'string' ? JSON.parse(event) : event
-        );
-        setPlayer({ ...playerData, events: parsedEvents });
+        // Remove o processamento de eventos
+        setPlayer(playerData);
       } else {
         console.error('Jogador não encontrado!');
         setPlayer(null);
@@ -118,17 +116,6 @@ const Dashboard = () => {
                   )
               )}
             </div>
-          </div>
-
-          <div className="event-list">
-            <h3>Eventos Participados</h3>
-            <ul>
-              {player.events.map((event, index) => (
-                <li key={index}>
-                  {event.name} - {event.date}
-                </li>
-              ))}
-            </ul>
           </div>
         </>
       )}

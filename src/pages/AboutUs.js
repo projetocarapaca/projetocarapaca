@@ -12,7 +12,7 @@ const AboutUs = () => {
       {/* Seção de fotos */}
       <div className="photo-gallery">
         <div className="photo-item">
-          <img src="/assets/marcio.jpg" alt="Foto 1" className="photo" />
+          <img src="/assets/marcio.jpeg" alt="Foto 1" className="photo" />
           <h2>Marcio Henrique de Tulio</h2>
           <h3>Dev, Hardware</h3>
         </div>
