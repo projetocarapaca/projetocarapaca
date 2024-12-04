@@ -8,7 +8,7 @@
 
 { name: "Medalha de Reconhecimento", image: "/assets/nav.webp", condition: false }
 
-
+Carlos
 
 Class "Militia Trainer"
 (string)
@@ -16,14 +16,29 @@ callsign "Buns"
 (string)
 city "Copenhague"
 (string)
+team "A.I.M."
+(string)
+photoUrl "https://static.wikia.nocookie.net/jaggedalliance/images/8/83/JA3_Buns.jpg"
+(string)
+name
+(string)
+
+
+totalScore 80 
+(number)
+gamesPlayed 6
+(number)
+respawnScore 4
+(number)
+
+
 events
 (array)
 0 "{\"name\":\"Metavira\",\"date\":\"1999-03-15\"}"
 (string)
 1 "{\"name\":\"Arulco\",\"date\":\"2004-08-01\"}"
 (string)
-gamesPlayed 6
-(number)
+
 medals
 (array)
 0 "{ name: "Medalha de Ação", image: "/assets/action.webp", condition: true }"
@@ -36,10 +51,3 @@ medals
 (string)
 4 "{ name: "Medalha de Reconhecimento", image: "/assets/nav.webp", condition: false }"
 (string)
-photoUrl "https://static.wikia.nocookie.net/jaggedalliance/images/8/83/JA3_Buns.jpg"
-(string)
-respawnScore 4
-(number)
-team "A.I.M."
-(string)
-totalScore 80 
