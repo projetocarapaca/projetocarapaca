@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/projetocarapaca/static/css/main.6f70f556.css",
+    "main.js": "/projetocarapaca/static/js/main.79dfdb71.js",
+    "static/js/453.3856adff.chunk.js": "/projetocarapaca/static/js/453.3856adff.chunk.js",
+    "static/media/background.jpg": "/projetocarapaca/static/media/background.7a5387cc5e1c0c335f37.jpg",
+    "index.html": "/projetocarapaca/index.html",
+    "main.6f70f556.css.map": "/projetocarapaca/static/css/main.6f70f556.css.map",
+    "main.79dfdb71.js.map": "/projetocarapaca/static/js/main.79dfdb71.js.map",
+    "453.3856adff.chunk.js.map": "/projetocarapaca/static/js/453.3856adff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f70f556.css",
+    "static/js/main.79dfdb71.js"
+  ]
+}
